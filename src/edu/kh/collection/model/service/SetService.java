@@ -260,4 +260,20 @@ public class SetService {
 		}
 		System.out.println("로또 번호 : " + lotto);
 	}
+	
+	public void lotto2() {
+		
+		Set<Integer> lotto2 = new TreeSet<Integer>();
+		
+		
+		while(lotto2.size()<6) {
+			
+			int random = (int)(Math.random()*45+1);
+			
+			lotto2.add(random);
+			
+			
+		}
+		System.out.println(lotto2);
+	}
 }

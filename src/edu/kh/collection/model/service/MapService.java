@@ -146,6 +146,7 @@ public class MapService {
 		//향상된 for문 
 		for(Map<String, Object> temp : list) {
 			System.out.println(temp.get("id"));
+			
 		}
 	}
 }

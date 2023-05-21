@@ -8,7 +8,8 @@ public class SetRun {
 
 		SetService service = new SetService();
 		
-		service.lotto();
+		service.lotto2();
+
 		
 	}
 
